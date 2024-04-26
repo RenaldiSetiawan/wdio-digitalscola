@@ -1,0 +1,21 @@
+{
+  "name": "wdio-digitalscola",
+  "version": "1.0.0",
+  "description": "Webdriver.io / UI Automation Test",
+  "main": "index.js",
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^8.36.1"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^8.36.1",
+    "@wdio/local-runner": "^8.36.1",
+    "@wdio/mocha-framework": "^8.36.1",
+    "@wdio/spec-reporter": "^8.36.1"
+  }
+}
